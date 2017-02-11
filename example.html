@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example of using interactive help</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>    <script src="interactiveHelp.js"></script>
+</head>
+<body>
+<button class="helpButton">Help</button>
+<div><h1 style="display: inline-block;" data-help="1" data-toggle="popover" data-placement="bottom" data-content="This is an example of interactive help. You can either keep using the button on the top to advance hints, or click on the hint itself">Example of using interactive help</h1></div>
+<form>
+    <input type="submit" value="Submit" data-help="2", data-toggle="popover", data-placement="auto", data-content="By doing it step by step, while pointing on different parts of the UI the documentation lives together with the software and is easier to digest"/>
+    <input type="text" data-help="3", data-toggle="popover", data-placement="right", data-content="You can use popopvers to explain in more detail what different parts of your UI are doing and how to use them" />
+</form>
+</body>
+</html>
