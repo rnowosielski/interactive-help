@@ -22,7 +22,7 @@ In order to use the script, make sure that JQuery and Bootstraop is included in 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 ```
 
-afterward including the script `interactiveHelp.js` should do the trick.
+afterward including the script `interactiveHelp.js` should do the trick (by using e.g. https://rawgit.com)
 
 All you need to do in you HTML do document elements is to provide at least those fields in the html tag
 ```
