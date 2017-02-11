@@ -8,7 +8,7 @@ This script allows me to put documentation snippets together with the applicatio
 ## How does it look like
 
 When using vanilla bootstrap 3 the exaple looks something like this
-![Animation of the example]("./example.gif")
+![Animation of the example]("example.gif")
 
 ## How to use it in the code
 
