@@ -1,3 +1,5 @@
+"use strict";
+
 $(document).ready(function () {
 
     var sheet = window.document.styleSheets[0]
@@ -33,7 +35,7 @@ $(document).ready(function () {
         } else {
             $('.helpButton').data("pos", $('.helpButton').data('pos') + 1);
         }
-        nextPopover = $('[data-help="' + $('.helpButton').data('pos') + '"]')
+        var nextPopover = $('[data-help="' + $('.helpButton').data('pos') + '"]');
         showNextPopover(nextPopover);
     }
 
